@@ -1,38 +1,22 @@
 
 h5{
     text-align: center;
-    
 }
 
-.michi{
+.titolo{
     background-image: url("scarpe.png");
     height:789px;
     margin-top: -40px;
     margin-left: -10px;
     margin-right:-10px ;
     opacity: 80%;
-  
 }
+
 
 h1{
     text-align: center;
     font-size: 60px;
     opacity: 100%;
-    
 }
 
-.sezioni{
-    display: flex;
-    gap: 10px;
-    align-items: flex-end;
-}
 
-.sezioni a {
-color: black;
-text-decoration: none;
-padding: 10px 70px;
-}
-
-.sezioni a:hover{
-    text-decoration: underline;
-}
