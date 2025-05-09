@@ -3,20 +3,86 @@ h5{
     text-align: center;
 }
 
-.titolo{
+.titoli{
     background-image: url("scarpe.png");
-    height:789px;
-    margin-top: -40px;
+    height:769px;
+    margin-top: 10px;
     margin-left: -10px;
     margin-right:-10px ;
-    opacity: 80%;
+    background-size: cover;
+    display: flex;
 }
 
+.titoli {
+    display: flex;
+    justify-content: space-between; /* Distribuisce gli elementi ai lati */
+    align-items: center; /* Allinea verticalmente al centro */
+    padding: 10px;
+}
 
-h1{
-    text-align: center;
+.sinistra {
+    font-size: 16px;
+    color: white ; 
+    margin-top: -730px;
+}
+
+.destra {
+    font-size: 16px;
+    color: white ; 
+    margin-top: -730px;
+    margin-right: 50px;
+}
+
+.immagine-flottante {
+    float: left; 
+    margin-right: 10px; 
+    width: 20px;
+    height: 20px; 
+    vertical-align: middle; 
+}
+
+.sx{
+    margin-left: -450px;
+    font-size: 16px;
+    color: white;
+    margin-top: -730px;
+}
+
+.dx{
+    margin-left: -500px;
+    font-size: 16px;
+    color: white;
+    margin-top: -730px;
+}
+
+.centrale {
+    margin-top: -670px;
     font-size: 60px;
-    opacity: 100%;
+    text-align: center;
+    color: black;
+}
+
+h2{
+    text-align: center;
 }
 
 
+
+.photo-wall {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Griglia responsive */
+    gap: 10px; /* Spazio tra le immagini */
+    padding: 20px;
+}
+
+.photo-wall img {
+    width: 100%; /* L'immagine occupa tutta la larghezza della cella */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 5px; /* Angoli arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aggiunge un'ombra */
+    transition: transform 0.3s; /* Effetto al passaggio del mouse */
+}
+
+.photo-wall img:hover {
+    transform: scale(1.05); /* Ingrandisce leggermente l'immagine al passaggio del mouse */
+}
