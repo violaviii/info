@@ -13,14 +13,14 @@ h5{
     display: flex;
 }
 
-.titoli {
+.titoli{
     display: flex;
-    justify-content: space-between; /* Distribuisce gli elementi ai lati */
-    align-items: center; /* Allinea verticalmente al centro */
+    justify-content: space-between;  /*distribuisce elementi ai lati*/
+    align-items: center; /*Allinea verticalmente al centro*/
     padding: 10px;
 }
 
-.sinistra {
+.sinistras{
     font-size: 12px;
     color: white ; 
     margin-top: -730px;
@@ -41,25 +41,57 @@ h5{
     vertical-align: middle; 
 }
 
-.sx{
-    margin-left: -460px;
+
+
+/* Contenitore nascosto */
+.dropdown {
+    display: none; /* Nasconde il contenitore di default */
+    position: absolute; /* Posiziona il menu rispetto al genitore */
+    background-color: white; /* Sfondo del menu */
+    border: 1px solid #ccc; /* Bordo sottile */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra */
+    z-index: 10; /* Porta il menu sopra gli altri elementi */
+}
+
+.dropdown a {
+    display: block; /* Ogni link occupa una riga */
+    color: black; /* Colore del testo */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    padding: 5px 0; /* Spaziatura tra i link */
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1; /* Cambia colore al passaggio del cursore */
+}
+
+/* Mostra il menu al passaggio del cursore */
+.sinistra:hover .dropdown {
+    display: block; /* Mostra il contenitore */
+}
+
+.sinistra{
+    margin-left: -430px;
     font-size: 12px;
     color: white;
     margin-top: -730px;
 }
 
-.dx{
-    margin-left: -500px;
+.destrad{
+    margin-left: -465px;
     font-size: 12px;
     color: white;
     margin-top: -730px;
 }
 
 .centrale {
-    margin-top: -670px;
+    margin-top: -630px;
     font-size: 60px;
     text-align: center;
     color: black;
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    font-weight: 900;
 }
 
 h2{

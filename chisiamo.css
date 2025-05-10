@@ -6,17 +6,91 @@
     margin-right:-10px ;
     display: flex;
 }
+
 .intro {
     display: flex;
-    justify-content: space-between; /* Distribuisce gli elementi ai lati */
-    align-items: center; /* Allinea verticalmente al centro */
+    justify-content: space-between; 
+    align-items: center; 
     padding: 10px;
 }
+
 h1 {
-    margin-top: -60px;
+    margin-top: 9px;
     font-size: 60px;
     text-align: center;
     color: white;
-    font-size: 65px;
+    font-size: 60px;
+    font-weight: 950;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -4px;
+    max-width: 800px; /* Limita la larghezza del titolo */
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.imf{
+    position: absolute;
+     top: 10px; /* Distanza dal bordo superiore */
+    left: 10px; /* Distanza dal bordo sinistro */
+    width: 50px; /* Larghezza dell'immagine */
+    height: auto; /* Mantiene le proporzioni */
+    cursor: pointer;   
+}
+
+.storia{
+    display: flex; /* Dispone immagine e paragrafo in fila */
+    align-items: center; /* Allinea verticalmente al centro */
+    gap: 15px; /* Spazio tra immagine e paragrafo */
+}
+
+.imgf {
+     float: left;
+    margin-right: 15px; /* Spazio tra l'immagine e il testo */
+    width: 250px; /* Larghezza dell'immagine */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 5px; /* Angoli arrotondati (opzionale) */
+}
+
+.storia p {
+    margin: 0; /* Rimuove margini predefiniti del paragrafo */
+    line-height: 1.6; /* Migliora la leggibilità */
+}
+
+.tooltip {
+    position: relative; /* Necessario per posizionare l'immagine */
+    cursor: pointer; /* Cambia il cursore a "mano" */
+}
+
+.tooltip-image {
+    display: none; 
+    position: absolute;
+    top: -600%; /* Posiziona l'immagine sopra il testo */
+    left: 50%; /* Centra l'immagine rispetto al testo */
+    transform: translateX(-50%);
+    width: 100px; /* Larghezza dell'immagine */
+    height: auto; /* Mantiene le proporzioni */
+    border: 1px solid #ccc; /* Bordo sottile */
+    border-radius: 5px; /* Angoli arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra */
+    background-color: white; /* Sfondo bianco */
+    z-index: 10; /* Porta l'immagine sopra gli altri elementi */
+}
+
+.tooltip:hover .tooltip-image{
+    display: block; /* Mostra l'immagine quando si passa il cursore */
+}
+
+.frasi{
+    background-image: url(orme.jpeg);
+    height:400px;
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-right:-10px ;
+    display: flex;
+}
+
+h2{
+    margin-left: 400px;
+    margin-top: 250px;
 }
 
