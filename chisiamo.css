@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: antiquewhite; /*cambio colore dello sfondo*/
 }
 
 .intro{
@@ -27,17 +27,17 @@ h1 {
     font-weight: 950;
     font-family: 'Poppins', sans-serif;
     letter-spacing: -4px;
-    max-width: 800px; /* Limita la larghezza del titolo */
+    max-width: 800px; /*Limita la larghezza del titolo*/
     margin-left: auto; 
     margin-right: auto;
 }
 
 .imf{
     position: absolute;
-     top: 10px; /* Distanza dal bordo superiore */
-    left: 10px; /* Distanza dal bordo sinistro */
-    width: 50px; /* Larghezza dell'immagine */
-    height: auto; /* Mantiene le proporzioni */
+     top: 10px; /*Distanza dal bordo superiore*/
+    left: 10px; /*Distanza dal bordo sinistro*/
+    width: 50px; /*Larghezza dell'immagine*/
+    height: auto; /*Mantiene le proporzioni*/
     cursor: pointer;   
 }
 
@@ -53,49 +53,48 @@ font-weight: 500;
 font-size: 22px;
 }
 
-
 .storia{
-    display: flex; /* Dispone immagine e paragrafo in fila */
-    align-items: center; /* Allinea verticalmente al centro */
-    gap: 15px; /* Spazio tra immagine e paragrafo */
+    display: flex; /*Dispone immagine e paragrafo in fila*/
+    align-items: center; /*Allinea verticalmente al centro*/
+    gap: 15px; /*Spazio tra immagine e paragrafo*/
 }
 
 .imgf {
      float: left;
-    margin-right: 15px; /* Spazio tra l'immagine e il testo */
-    width: 250px; /* Larghezza dell'immagine */
-    height: auto; /* Mantiene le proporzioni */
-    border-radius: 5px; /* Angoli arrotondati (opzionale) */
+    margin-right: 15px; /*Spazio tra l'immagine e il testo*/
+    width: 250px; /*Larghezza dell'immagine*/
+    height: auto; /*Mantiene le proporzioni*/
+    border-radius: 5px; /*Angoli arrotondati (opzionale)*/
     margin-left: 10px;
 }
 
 .storia p {
-    margin: 0; /* Rimuove margini predefiniti del paragrafo */
-    line-height: 1.6; /* Migliora la leggibilità */
+    margin: 0; /*Rimuove margini predefiniti del paragrafo*/
+    line-height: 1.6; /*Migliora la leggibilità*/
 }
 
 .tooltip {
-    position: relative; /* Necessario per posizionare l'immagine */
-    cursor: pointer; /* Cambia il cursore a "mano" */
+    position: relative; /*Necessario per posizionare l'immagine*/
+    cursor: pointer; /*Cambia il cursore a "mano"*/
 }
 
 .tooltip-image {
     display: none; 
     position: absolute;
-    top: -400%; /* Posiziona l'immagine sopra il testo */
-    left: 50%; /* Centra l'immagine rispetto al testo */
+    top: -400%; /*Posiziona l'immagine sopra il testo*/
+    left: 50%; /*Centra l'immagine rispetto al testo*/
     transform: translateX(-50%);
-    width: 100px; /* Larghezza dell'immagine */
-    height: auto; /* Mantiene le proporzioni */
-    border: 1px solid #ccc; /* Bordo sottile */
-    border-radius: 5px; /* Angoli arrotondati */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra */
-    background-color: white; /* Sfondo bianco */
-    z-index: 10; /* Porta l'immagine sopra gli altri elementi */
+    width: 100px; /*Larghezza dell'immagine*/
+    height: auto; /*Mantiene le proporzioni*/
+    border: 1px solid #ccc; /*Bordo sottile*/
+    border-radius: 5px; /*Angoli arrotondati*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Ombra*/
+    background-color: white; /*Sfondo bianco*/
+    z-index: 10; /*Porta l'immagine sopra gli altri elementi*/
 }
 
 .tooltip:hover .tooltip-image{
-    display: block; /* Mostra l'immagine quando si passa il cursore */
+    display: block; /*Mostra l'immagine quando si passa il cursore*/
 }
 
 .frasi{

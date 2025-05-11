@@ -1,6 +1,10 @@
+h5{
+    text-align: center;
+}
+
 .logo{
     height:100px;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-left: 700px;
     background-size: cover;
     display: flex;
@@ -10,8 +14,49 @@
     background-color: black;
     height:40px;
     margin-top: -90px;
-    margin-left: 5px;
+    margin-left: 1460px;
     background-size: cover;
     display: flex;
 
+}
+
+.destra{
+    color: black;
+    margin-left: 1380px;
+    margin-top: -25px;
+    display: flex;
+    font-size: 12px;
+}
+
+.dropdown {
+    display: none; /*Nasconde il contenitore di default*/
+    position: absolute; /*Posiziona il menu rispetto al genitore*/
+    background-color: white; /*Sfondo del menu*/
+    border: 1px solid #ccc; /*Bordo sottile*/
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra */
+    z-index: 10; /* Porta il menu sopra gli altri elementi */
+}
+
+.dropdown a {
+    display: block; /* Ogni link occupa una riga */
+    color: black; /* Colore del testo */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    padding: 5px 0; /* Spaziatura tra i link */
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1; /* Cambia colore al passaggio del cursore */
+}
+
+/* Mostra il menu al passaggio del cursore */
+.destra:hover .dropdown {
+    display: block; /* Mostra il contenitore */
+}
+
+h4 { /* Centra il testo orizzontalmente */
+    margin-top: -20px; /* Regola la distanza verticale */
+    font-size: 18px;
+    color: black;
+    text-align: left;
 }

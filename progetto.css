@@ -1,9 +1,10 @@
 
 h5{
-    text-align: center;
+    text-align: center; /*per la scritta sopra alla striscia nera*/
 }
 
-.titoli{
+/*immagine di sfondo e tutti gli elementi sopra*/
+.titoli{ 
     background-image: url("scarpe.png");
     height:769px;
     margin-top: 10px;
@@ -13,7 +14,7 @@ h5{
     display: flex;
 }
 
-.titoli{
+.titoli{ 
     display: flex;
     justify-content: space-between;  /*distribuisce elementi ai lati*/
     align-items: center; /*Allinea verticalmente al centro*/
@@ -41,32 +42,31 @@ h5{
     vertical-align: middle; 
 }
 
-
-/* Contenitore nascosto */
+/*Contenitore nascosto*/
 .dropdown {
-    display: none; /* Nasconde il contenitore di default */
-    position: absolute; /* Posiziona il menu rispetto al genitore */
-    background-color: white; /* Sfondo del menu */
-    border: 1px solid #ccc; /* Bordo sottile */
+    display: none; /*Nasconde il contenitore di default*/
+    position: absolute; 
+    background-color: white; /*Sfondo del menu*/
+    border: 1px solid #ccc; /*Bordo sottile*/
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra */
-    z-index: 10; /* Porta il menu sopra gli altri elementi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Ombra*/
+    z-index: 10; /*Porta il menu sopra gli altri elementi*/
 }
 
 .dropdown a {
-    display: block; /* Ogni link occupa una riga */
-    color: black; /* Colore del testo */
-    text-decoration: none; /* Rimuove la sottolineatura */
-    padding: 5px 0; /* Spaziatura tra i link */
+    display: block; /*Ogni link occupa una riga*/
+    color: black; /*Colore del testo*/
+    text-decoration: none; /*Rimuove la sottolineatura*/
+    padding: 5px 0; /*Spaziatura tra i link*/
 }
 
 .dropdown a:hover {
-    background-color: #f1f1f1; /* Cambia colore al passaggio del cursore */
+    background-color: #f1f1f1; /*colore al passaggio del cursore*/
 }
 
-/* Mostra il menu al passaggio del cursore */
+/*Mostra il menu al passaggio del cursore*/
 .sinistra:hover .dropdown {
-    display: block; /* Mostra il contenitore */
+    display: block; /*Mostra il contenitore*/
 }
 
 .sinistra{
@@ -93,20 +93,21 @@ h5{
     font-weight: 900;
 }
 
+/*creazione del pop up col form di registrazione*/
 .modal {
-    display: none; /* Nasconde il pop-up di default */
+    display: none; /*Nasconde il pop-up di default*/
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente */
+    background-color: rgba(0, 0, 0, 0.5); /*Sfondo semi-trasparente*/
     z-index: 1000;
     justify-content: center;
     align-items: center;
 }
 
-/* Contenuto del pop-up */
+/*Contenuto del pop-up*/
 .modal-content {
     background-color: white;
     padding: 20px;
@@ -115,7 +116,7 @@ h5{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
-/* Pulsante di chiusura */
+/*Pulsante di chiusura e invio*/
 .close {
     position: absolute;
     top: 10px;
@@ -125,7 +126,7 @@ h5{
     cursor: pointer;
 }
 
-/* Stile per il form */
+/*Stile per il form*/
 form {
     display: flex;
     flex-direction: column;
@@ -137,6 +138,7 @@ form input {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 form button {
     background-color: black;
     color: white;
@@ -150,7 +152,7 @@ form button:hover {
     background-color: gray;
 }
 
-
+/*inizio mostra foto scarpe*/
 h2{
     text-align: center;
 }

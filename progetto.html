@@ -8,47 +8,48 @@
 </head>
 
 <body>
-    <script src="progetto.js"></script>
+<script src="progetto.js"></script>
 
 <!--creazione del 'bordo' iniziale con lo slogan-->
 <div style="background-color: black; color:white; padding:0.3px; margin:-10px"> 
 <h5> CAMMINA CON NOI </h5>
 </div>
      
-    <!--creazione titolo principale e delle sezioni--> 
-    <div class="titoli">
-    <span class="sinistras"> <a href="chisiamo.html" target="_self" style="color: white;"> CHI SIAMO </a> </span> 
-    <span class="sinistra">ACQUISTA
-        <div class="dropdown">
-        <a href="uomo.html">Uomo</a>
-        <a href="donna.html">Donna</a>
-        <a href="personalizza.html">Personalizza</a>
+<!--creazione titolo principale e delle sezioni--> 
+<div class="titoli">
+ <span class="sinistras"> <a href="chisiamo.html" target="_self" style="color: white;"> CHI SIAMO </a> </span> 
+ <span class="sinistra">ACQUISTA
+    <div class="dropdown">
+    <a href="uomo.html">Uomo</a>
+    <a href="donna.html">Donna</a>
+    <a href="personalizza.html">Personalizza</a>
     </div>
-    </span>
-    <h1 class="centrale">Walkory</h1>
-    <span class="destra"> <img src="lente.png" alt="lente" class="immagine-flottante"> <button type="button" onclick="openModal()"> ACCEDI </button> </span> 
+ </span>
+
+ <h1 class="centrale">Walkory</h1>
+ <span class="destra"> <img src="lente.png" alt="lente" class="immagine-flottante"> <button type="button" onclick="openModal()"> ACCEDI </button> </span> 
  
-    <!--creazione del form--> 
-    <div id="modal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h2>Registrazione</h2>
-        <form>
-            <label for="username">Nome utente:</label>
-            <input type="text" id="username" name="username" required>
+<!--creazione del form di registrazione--> 
+ <div id="modal" class="modal">
+ <div class="modal-content">
+ <span class="close" onclick="closeModal()">&times;</span>
+ <h2>Registrazione</h2>
+ <form>
+    <label for="username">Nome utente:</label>
+    <input type="text" id="username" name="username" required>
+     
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
             
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
             
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            
-            <button type="submit">Registrati</button>
-        </form>
-    </div>
+    <button type="submit">Registrati</button>
+ </form>
+ </div>
+ </div>
+ <span class="destrad">CARRELLO</span>
 </div>
-    <span class="destrad">CARRELLO</span>
-    </div>
 
 <h2>BEST SELLER</h2>    
  <!--foto scarpe-->      
