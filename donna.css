@@ -1,0 +1,17 @@
+.logo{
+    height:100px;
+    margin-top: -10px;
+    margin-left: 700px;
+    background-size: cover;
+    display: flex;
+}
+
+.imf{
+    background-color: black;
+    height:40px;
+    margin-top: -90px;
+    margin-left: 5px;
+    background-size: cover;
+    display: flex;
+
+}
