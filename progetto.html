@@ -26,15 +26,15 @@
     </div>
  </span>
 
- <h1 class="centrale">Walkory</h1>
+ <div class="centrale"> <img src="logo.jpg" alt="logo"> </div>
  <span class="destra"> <img src="lente.png" alt="lente" class="immagine-flottante"> <button type="button" onclick="openModal()"> ACCEDI </button> </span> 
  
-<!--creazione del form di registrazione--> 
- <div id="modal" class="modal">
- <div class="modal-content">
- <span class="close" onclick="closeModal()">&times;</span>
- <h2>Registrazione</h2>
- <form>
+     <!--creazione del form di registrazione--> 
+    <div id="modal" class="modal">
+    <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>Registrazione</h2>
+    <form>
     <label for="username">Nome utente:</label>
     <input type="text" id="username" name="username" required>
      
@@ -45,15 +45,15 @@
     <input type="password" id="password" name="password" required>
             
     <button type="submit">Registrati</button>
- </form>
- </div>
- </div>
- <span class="destrad">CARRELLO</span>
+    </form>
+    </div>
+    </div>
+ 
+<span class="destrad">CARRELLO</span>
 </div>
 
 <h2>BEST SELLER</h2>    
  <!--foto scarpe-->      
- 
    <div class="carousel">
     <div class="carousel-track">
         <img src="1.png" alt="Scarpa 1">
@@ -65,10 +65,20 @@
     <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
 </div>
 
+<br>
 
-<!--altre sezioni con alcuni link-->   
+<!--altre sezioni con alcuni link a sinistra-->   
+<div class="footer-left">
+    <p><a href="infoprivacy.html">Info Privacy</a></p>
+    <p><a href="politicarimborso.html">Politica Rimborso</a></p>
+    <p><a href="politicaspedizione.html">Politica Spedizione</a></p>
+    <p><a href="terminiservizio.html">Termini sevizio</a></p>
+    <p><a href="contatti.html">Contatti</a></p>
+</div>
 
-
+<div class="footer-right">
+    <p>WALKORY powered by 4^ ASA</p>
+</div>
     
     </body>
 </html>
