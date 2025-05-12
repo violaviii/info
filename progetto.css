@@ -176,3 +176,51 @@ h2{
     transform: scale(1.05); /* Ingrandisce leggermente l'immagine al passaggio del mouse */
 }
 
+
+
+/* Stile per il contenitore del carousel */
+.carousel {
+    position: relative;
+    width: 40%; /* Larghezza del carousel */
+    height: 550px;
+    margin: 20px auto; /* Centra il carousel */
+    overflow: hidden; /* Nasconde le immagini fuori dal contenitore */
+    border-radius: 10px; /* Angoli arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra */
+}
+/* Traccia delle immagini */
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Animazione dello scorrimento */
+}
+
+/* Immagini del carousel */
+.carousel-track img {
+    width: 100%; /* Ogni immagine occupa tutta la larghezza del contenitore */
+    flex-shrink: 0; /* Impedisce il ridimensionamento delle immagini */
+}
+/* Pulsanti del carousel */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.carousel-btn.prev {
+    left: 10px; /* Pulsante sinistro */
+}
+
+.carousel-btn.next {
+    right: 10px; /* Pulsante destro */
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
