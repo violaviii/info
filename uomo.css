@@ -60,3 +60,52 @@ h4 { /* Centra il testo orizzontalmente */
     color: black;
     text-align: left;
 }
+.contenitore{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.pers{
+    margin-top: 40px;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.pers img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*creazione scritte in fondo alla pagina a sinistra*/
+.footer{
+    clear: both;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0; /* Posiziona il footer al bordo sinistro */
+    right: 0; /* Posiziona il footer al bordo destro */
+    width: 102.7%;
+    height: 50px;
+    display: flex;
+    justify-content: center; /* Centra il testo orizzontalmente */
+    align-items: center; /* Centra il testo verticalmente */
+    padding:0px; 
+    margin:-10px;
+    margin-left: -30px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: solid;
+    margin: 0 10px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
