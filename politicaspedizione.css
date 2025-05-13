@@ -15,10 +15,23 @@ h3{
 }
 
 p{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 500;
   font-size: 17px;
 }
+
+/*immagini al lato dei punti principali del testo*/
+.bitalia{
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.mapp{
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
 /*creazione scritte in fondo alla pagina a sinistra*/
 .footer{
     clear: both;

@@ -70,14 +70,14 @@ h5{
 
 .sinistra{  /*è l'elemento acquista*/
     margin-left: -480px;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     margin-top: -730px;
 }
 
 .destrad{   /*è l'elemento carrello*/
     margin-left: -465px;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     margin-top: -730px;
 }

@@ -15,10 +15,50 @@ h3{
 }
 
 p{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 500;
-  font-size: 17px;
+  font-size: 18px;
 }
+
+.immagini{
+    display: flex; /* Dispone gli elementi in riga */
+    gap: 580px; 
+    align-items: center; /* Allinea gli elementi verticalmente */
+    margin-top: 20px; /* Spaziatura sopra il contenitore */
+}
+
+.mail{
+    width: 60px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.telefono{
+    width: 50px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.luogo{
+    width: 50px;
+    margin-left: 720px;
+    margin-top: 30px;
+}
+
+.contatti{
+    display: flex; /* Dispone gli elementi in riga */
+    gap: 500px; /* Spaziatura tra gli elementi */
+    justify-content: center; /* Centra gli elementi orizzontalmente */
+    align-items: center; /* Allinea gli elementi verticalmente */
+    margin-top: 20px; /* Spaziatura sopra il contenitore */
+}
+
+.contatti p {
+    margin: 0; /* Rimuove i margini predefiniti */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px; /* Dimensione del testo */
+    line-height: 1.5; /* Altezza della linea */
+}
+
+
 /*creazione scritte in fondo alla pagina a sinistra*/
 .footer{
     clear: both;
