@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    
+ <title>WALKORY-scarpa personalizzata</title>
+  <link rel="stylesheet" href="scarpapersonalizzata.css">
+   <link rel="icon" href="IMMAGINI/logo.jpg" type="image/x-icon">
 </head>
-<bod>
-    <h1>SCARpa</h1>
-</bod>
+
+<body>
+    <script src="scarpapersonalizzata.js"></script>
+<!--creazione del 'bordo' iniziale con lo slogan-->
+<div style="background-color: black; color:white; padding:0.3px; margin:-10px"> 
+<h5> CAMMINA CON NOI </h5>
+</div>
+
+<img src="IMMAGINI/logo.jpg" alt="logo" class="logo">
+
+<!--creazione striscia con logo, e richiamo alla home e sezione acquista-->
+<a href="progetto.html">
+ <img src="IMMAGINI/casa.png" alt="casa" class="imf"> 
+</a>
+
+<span class="destra">ACQUISTA
+    <div class="dropdown">
+    <a href="uomo.html">Uomo</a>
+    <a href="donna.html">Donna</a>
+    <a href="personalizza.html">Personalizza</a>
+    </div>
+</span>
+
+<h4>WALKORY-scarpa personalizzata</h4>
+
+<div class="scarpa-container">
+    <!-- Immagine della scarpa -->
+    <img src="IMMAGINI/1.png" alt="Scarpa" class="scarpa-img" id="scarpa">
+
+    <div class="descr">
+    <h3 class="titoloscarpa">Nike Air Force 1 By You</h3>
+
+    <!-- Pulsanti per cambiare colore -->
+    <div class="color-buttons">
+        <button class="color-btn" style="background-color: rgb(228, 193, 53);" onclick="changeColor()"></button>
+        <button class="color-btn" style="background-color: rgba(4, 4, 155, 0.93);" onclick="changeColor1()"></button>
+        <button class="color-btn" style="background-color: #faa3f5;" onclick="changeColor2()"></button>
+        <button class="color-btn" style="background-color: rgb(94, 154, 102);" onclick="changeColor3()"></button>
+    </div>
+    </div>
+</div>
+
+
+
+</body>
 </html>
