@@ -1,7 +1,4 @@
-body {
-    background-color: antiquewhite; /*cambio colore dello sfondo*/
-}
-
+/*sfondo sotto alla scritta principale*/
 .intro{
     background-image: url(nero.jpeg);
     height:400px;
@@ -32,6 +29,7 @@ h1 {
     margin-right: auto;
 }
 
+/*immagine dcasetta*/
 .imf{
     position: absolute;
      top: 10px; /*Distanza dal bordo superiore*/
@@ -59,6 +57,7 @@ font-size: 22px;
     gap: 15px; /*Spazio tra immagine e paragrafo*/
 }
 
+/*immagine logo a sinistra del testo*/
 .imgf {
      float: left;
     margin-right: 15px; /*Spazio tra l'immagine e il testo*/
@@ -78,6 +77,7 @@ font-size: 22px;
     cursor: pointer; /*Cambia il cursore a "mano"*/
 }
 
+/*creazione immagine che appare al passare del cursore*/
 .tooltip-image {
     display: none; 
     position: absolute;

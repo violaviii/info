@@ -82,7 +82,7 @@ h5{
     margin-top: -730px;
 }
 
-.centrale {   /*è il logo centrale*/
+.centrale {  /*è il logo centrale*/
     height:100px;
     margin-top: -688px;
     margin-left: 40px;
@@ -220,34 +220,31 @@ h2{
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.footer-left {
-    position: relative; 
-    left: 0px; /* Distanza dal bordo sinistro */
-    width: 100%;
-    text-align: left; /* Allinea il testo a sinistra */
-    font-size: 14px; /* Dimensione del testo */
-    font-family: Arial, sans-serif; /* Font leggibile */
-    color: black; /* Colore del testo */
-}
-
-.footer-left p {
-    margin: 5px 0; /* Spaziatura tra i paragrafi */
-}
-
-.footer-left a {
-    text-decoration: none; /* Rimuove la sottolineatura */
-    color: black; /* Colore del link */
-    transition: color 0.3s ease; /* Effetto al passaggio del mouse */
-}
-
-.footer-left a:hover {
-    color: gray; /* Cambia colore al passaggio del mouse */
-}
-
-.footer-right{
+/*creazione scritte in fondo alla pagina a sinistra*/
+.footer{
+    clear: both;
+    background-color: black;
+    text-align: center;
     position: relative;
-    width: 100%;
-    text-align: right;
-    font-size: 14px; /* Dimensione del testo */
-    font-family: "Arial, sans-serif;" /* Font leggibile */
+    bottom: 0;
+    left: 0; /* Posiziona il footer al bordo sinistro */
+    right: 0; /* Posiziona il footer al bordo destro */
+    width: 110%;
+    height: 50px;
+    display: flex;
+    justify-content: center; /* Centra il testo orizzontalmente */
+    align-items: center; /* Centra il testo verticalmente */
+    padding:0px; 
+    margin: -10px;
+    margin-left: -30px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: solid;
+    margin: 0 10px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
 }

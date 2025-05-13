@@ -1,5 +1,4 @@
-
-    /*per il form di registrazione*/
+ /*per il form di registrazione*/
     function openModal() {
         document.getElementById("modal").style.display = "flex";
     }
