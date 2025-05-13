@@ -1,6 +1,6 @@
 /*sfondo sotto alla scritta principale*/
 .intro{
-    background-image: url(nero.jpeg);
+    background-image: url(IMMAGINI/nero.jpeg);
     height:400px;
     margin-top: -10px;
     margin-left: -10px;
@@ -98,7 +98,7 @@ font-size: 22px;
 }
 
 .frasi{
-    background-image: url(orme.jpeg);
+    background-image: url(IMMAGINI/orme.jpeg);
     height:400px;
     margin-top: -30px;
     margin-left: -10px;

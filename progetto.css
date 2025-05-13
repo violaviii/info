@@ -4,7 +4,7 @@ h5{
 
 /*immagine di sfondo e tutti gli elementi sopra*/
 .titoli{ 
-    background-image: url("scarpe.png");
+    background-image: url("IMMAGINI/scarpe.png");
     height:769px;
     margin-top: 10px;
     margin-left: -10px;
