@@ -248,3 +248,41 @@ h2{
 .footer a:hover{
     text-decoration: underline;
 }
+
+
+/*barra dei cookie*/
+.cookie-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+    z-index: 2000;
+    font-size: 16px;
+    display: none;
+}
+
+.cookie-btn {
+    margin-left: 15px;
+    background: white;
+    color: #222;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.cookie-btn.essential {
+    background: rgba(255, 255, 255, 0.719);
+    color: black;
+}
+
+.cookie-btn.refuse {
+    background: rgba(255, 255, 255, 0.367);
+    color:black;
+}

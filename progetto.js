@@ -43,3 +43,17 @@ function startAutoSlide() {
 
 /* Avvia lo scorrimento automatico quando la pagina è caricata */
 document.addEventListener('DOMContentLoaded', startAutoSlide);
+
+
+
+/*barra dei cookie*/
+function acceptCookies(type) {
+    document.getElementById('cookie-bar').style.display = 'none';
+    // localStorage.setItem('cookiePreference', type); // RIMUOVI o COMMENTA questa riga
+    // Qui puoi aggiungere logica diversa in base alla scelta
+    // Esempio: if(type === 'all') { ... } else if(type === 'essential') { ... }
+}
+
+window.onload = function() {
+    document.getElementById('cookie-bar').style.display = 'block';
+};

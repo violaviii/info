@@ -23,20 +23,23 @@ font-weight: 500;
 /*inserimento immagini prima di alcuni punti*/
 .temporeso{
     width: 50px;
-    margin-left: 50px;
     margin-top: 30px;
 }
 .soldireso{
     width: 40px;
-    margin-left: 50px;
     margin-top: 50px;
 }
 .contattireso{
     width: 50px;
-    margin-left: 50px;
     margin-top: 50px;
 }
 
+
+.sezione{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
 
 /*creazione scritte in fondo alla pagina a sinistra*/
 .footer{
