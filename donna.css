@@ -88,6 +88,12 @@ h4 { /* Centra il testo orizzontalmente */
     padding: 20px;
 }
 
+.contenitore2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
 
 /* Ingrandisce leggermente le immagini delle scarpe al passaggio del mouse */
 .pers img,
