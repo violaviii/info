@@ -88,6 +88,19 @@ h4 { /* Centra il testo orizzontalmente */
     padding: 20px;
 }
 
+
+/* Ingrandisce leggermente le immagini delle scarpe al passaggio del mouse */
+.pers img,
+.perss img {
+    transition: transform 0.3s;
+}
+
+.pers img:hover,
+.perss img:hover {
+    transform: scale(1.10);
+    z-index: 2;
+}
+
 .perss{
     margin-top: 40px;
     width: 600px;
