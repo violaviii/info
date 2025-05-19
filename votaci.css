@@ -1,0 +1,35 @@
+.casa-icon {
+    position: absolute; /* Posiziona l'immagine in alto a sinistra */
+    background-color: black;
+    top: 70px; /* Distanza dal bordo superiore */
+    left: 10px; /* Distanza dal bordo sinistro */
+    width: 40px; /* Larghezza dell'immagine */
+    height: auto; /* Mantiene le proporzioni */
+    cursor: pointer; /* Cambia il cursore in "mano" quando si passa sopra */
+}
+
+
+
+.star-rating {
+  direction: rtl;
+  display: inline-flex;
+  font-size: 2.5em;
+  justify-content: center;
+  gap: 5px;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: gold;
+}

@@ -11,26 +11,65 @@ h5{
     margin-right:-10px ;
     background-size: cover;
     display: flex;
-}
-
-.titoli{ 
-    display: flex;
     justify-content: space-between;  /*distribuisce elementi ai lati*/
     align-items: center; /*Allinea verticalmente al centro*/
     padding: 10px;
 }
-
-.sinistras{  /*è l'elemento chi siamo*/
+ /*i vari elementi*/
+.sinistras{
     font-size: 14px;
-    color: white ;  
+    display: flex; /*Dispone immagine e paragrafo in fila*/
+    align-items: center; /*Allinea verticalmente al centro*/
+    gap: 20px;
     margin-top: -730px;
 }
-
-.destra {  /*è l'elemento accedi*/
-    font-size: 12px;
-    color: white ; 
+.sinistra{
+    font-size: 14px;
+    display: flex; /*Dispone immagine e paragrafo in fila*/
+    align-items: center; /*Allinea verticalmente al centro*/
+    gap: 15px; /*Spazio tra immagine e paragrafo*/
     margin-top: -730px;
-    margin-right: -17px;
+    color: white;
+    margin-left: -450px;
+}
+.votazione{
+    font-size: 14px;
+    display: flex; /*Dispone immagine e paragrafo in fila*/
+    align-items: center; /*Allinea verticalmente al centro*/
+    gap: 15px; /*Spazio tra immagine e paragrafo*/
+    margin-top: -730px;
+    color: white;
+    margin-left: -455px;
+}
+.votazione a {
+    text-decoration: none;
+}
+.centrale{
+    display: flex; /*Dispone immagine e paragrafo in fila*/
+    align-items: center; /*Allinea verticalmente al centro*/
+    margin-top: -690px;
+    color: white;
+    margin-right: 50px;
+}
+.destra{
+    font-size: 14px;
+    display: flex; /*Dispone immagine e paragrafo in fila*/
+    align-items: center; /*Allinea verticalmente al centro*/
+    margin-top: -730px;
+    color: white;
+    margin-right: -460px;
+}
+.destrad{
+    font-size: 14px;
+    display: flex; /*Dispone immagine e paragrafo in fila*/
+    align-items: center; /*Allinea verticalmente al centro*/
+    margin-top: -730px;
+    color: white;
+    margin-right: 0px;
+}
+
+.centrale img {
+    height: 100px; /* Dimensione del logo centrale */
 }
 
 .immagine-flottante {  /*è la lente di ingrandimento*/
@@ -41,7 +80,7 @@ h5{
     vertical-align: middle; 
 }
 
-/*Contenitore nascosto*/
+/*Contenitore nascosto per la sezione acquista*/
 .dropdown {
     display: none; /*Nasconde il contenitore di default*/
     position: absolute; 
@@ -50,6 +89,7 @@ h5{
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Ombra*/
     z-index: 10; /*Porta il menu sopra gli altri elementi*/
+    margin-top: 120px;
 }
 
 .dropdown a {
@@ -68,29 +108,7 @@ h5{
     display: block; /*Mostra il contenitore*/
 }
 
-.sinistra{  /*è l'elemento acquista*/
-    margin-left: -480px;
-    font-size: 14px;
-    color: white;
-    margin-top: -730px;
-}
-
-.destrad{   /*è l'elemento carrello*/
-    margin-left: -465px;
-    font-size: 14px;
-    color: white;
-    margin-top: -730px;
-}
-
-.centrale {  /*è il logo centrale*/
-    height:100px;
-    margin-top: -688px;
-    margin-left: 40px;
-    background-size: cover;
-    display: flex;
-}
-
-/*creazione del pop up col form di registrazione*/
+/*creazione del pop up col form di registrazione nella sezione accedi*/
 .modal {
     display: none; /*Nasconde il pop-up di default*/
     position: fixed;
@@ -248,7 +266,6 @@ h2{
 .footer a:hover{
     text-decoration: underline;
 }
-
 
 /*barra dei cookie*/
 .cookie-bar {
