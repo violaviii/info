@@ -7,13 +7,45 @@
     height: auto; /* Mantiene le proporzioni */
     cursor: pointer; /* Cambia il cursore in "mano" quando si passa sopra */
 }
- /*creazione 5 stelline per poter votare il sito*/
-.star-rating {
-  direction: rtl;
+
+body { /*modifica ell'intero body...sfondo*/
+  background: linear-gradient(135deg, #5f5f5f 0%, #e3e3e3 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.votaci-container { /*contenitore per stelle e commenti*/
+  max-width: 500px;
+  margin: 60px auto 0 auto;
+  margin-top: 40px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(60,60,120,0.15);
+  padding: 40px 30px 30px 30px;
+  text-align: center;
+}
+
+.votaci-container h1 {
+  margin-bottom: 10px;
+  font-size: 2.2em;
+  letter-spacing: 2px;
+}
+
+.sottotitolo { /*è la scritta sotto al 'VOTACI'*/
+  color: #4b5563;
+  margin-bottom: 30px;
+  font-size: 1.1em;
+}
+
+/*stelline per la votazione del sito*/
+.star-rating {   direction: rtl;
   display: inline-flex;
   font-size: 5em;
   justify-content: center;
-  gap: 5px;
+  gap: 8px;
+  margin-bottom: 50px;
+  margin-top: -10px;
 }
 
 .star-rating input[type="radio"] {
@@ -23,16 +55,80 @@
 .star-rating label {
   color: #ccc;
   cursor: pointer;
-  transition: color 0.2s;
+  transition: color 0.2s, transform 0.2s;
 }
-
 .star-rating input[type="radio"]:checked ~ label,
 .star-rating label:hover,
 .star-rating label:hover ~ label {
-  color: gold;
+  color: #ffd700;
+  transform: scale(1.15);
 }
 
+.vota-form textarea { /*spazio per scrivere il commento e la recensione*/
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #5a5f64;
+  padding: 12px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  resize: vertical;
+  transition: border 0.2s;
+}
 
+.vota-form textarea:focus {
+  outline: none;
+}
+
+.vota-form button {  /*bottone per inviare la recensione*/
+  background: linear-gradient(90deg, #656566 0%, #adaeae 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-size: 1.1em;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.vota-form button:hover {
+  background: linear-gradient(90deg, #407232 0%, #73cb7c 100%);  /*fa cambiare il colore al bottone di invio quando ci passi sopra*/
+  transform: scale(1.05);
+}
+
+/*pop up che appare quando invii il commento*/
+.popup-grazie {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.4);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-grazie .popup-content { /*quello che c'è nel pop up*/
+  background: #fff;  
+  color: #000000;
+  padding: 40px 30px;
+  border-radius: 16px;
+  font-size: 1.5em;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(60,60,120,0.15);
+  position: relative;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px; right: 20px;
+  font-size: 2em;
+  color: #888;
+  cursor: pointer;
+}
+.close-popup:hover { /*quando passi sopra alla 'x' per chiudere il pop up cambia colore*/
+  color: #e74c3c;
+}
 
 /*creazione scritte in fondo alla pagina a sinistra*/
 .footer{
@@ -49,7 +145,7 @@
     justify-content: center; /* Centra il testo orizzontalmente */
     align-items: center; /* Centra il testo verticalmente */
     padding:0px; 
-    margin:-10px;
+    margin: 30px;
     margin-left: -30px;
 }
 
