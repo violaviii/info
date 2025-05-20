@@ -54,7 +54,7 @@ h5{
     display: block; /* Mostra il contenitore */
 }
 
-h4 { /* Centra il testo orizzontalmente */
+h4 { 
     margin-top: -20px; /* Regola la distanza verticale */
     font-size: 18px;
     color: black;

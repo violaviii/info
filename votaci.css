@@ -1,15 +1,15 @@
 .casa-icon {
     position: absolute; /* Posiziona l'immagine in alto a sinistra */
     background-color: black;
-    top: 70px; /* Distanza dal bordo superiore */
-    left: 10px; /* Distanza dal bordo sinistro */
+    top: 70px; 
+    left: 10px; 
     width: 40px; /* Larghezza dell'immagine */
-    height: auto; /* Mantiene le proporzioni */
+    height: auto; 
     cursor: pointer; /* Cambia il cursore in "mano" quando si passa sopra */
 }
 
 body { /*modifica ell'intero body...sfondo*/
-  background: linear-gradient(135deg, #5f5f5f 0%, #e3e3e3 100%);
+  background: linear-gradient(135deg, #5f5f5f 0%, #e3e3e3 100%); /*sfondo gradiente*/
   min-height: 100vh;
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
@@ -21,7 +21,7 @@ body { /*modifica ell'intero body...sfondo*/
   margin-top: 40px;
   background: #fff;
   border-radius: 18px;
-  box-shadow: 0 8px 32px rgba(60,60,120,0.15);
+  box-shadow: 0 8px 32px rgba(60,60,120,0.15); 
   padding: 40px 30px 30px 30px;
   text-align: center;
 }
@@ -47,11 +47,9 @@ body { /*modifica ell'intero body...sfondo*/
   margin-bottom: 50px;
   margin-top: -10px;
 }
-
 .star-rating input[type="radio"] {
   display: none;
 }
-
 .star-rating label {
   color: #ccc;
   cursor: pointer;
@@ -118,8 +116,8 @@ body { /*modifica ell'intero body...sfondo*/
   box-shadow: 0 8px 32px rgba(60,60,120,0.15);
   position: relative;
 }
-
-.close-popup {
+ 
+.close-popup {  /*per chiudere il pop up*/
   position: absolute;
   top: 10px; right: 20px;
   font-size: 2em;
@@ -142,8 +140,8 @@ body { /*modifica ell'intero body...sfondo*/
     width: 102.7%;
     height: 50px;
     display: flex;
-    justify-content: center; /* Centra il testo orizzontalmente */
-    align-items: center; /* Centra il testo verticalmente */
+    justify-content: center;
+    align-items: center; 
     padding:0px; 
     margin: 30px;
     margin-left: -30px;

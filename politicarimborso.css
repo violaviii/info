@@ -1,11 +1,11 @@
 .casa-icon {
-    position: absolute; /* Posiziona l'immagine in alto a sinistra */
+    position: absolute; 
     background-color: black;
-    top: 70px; /* Distanza dal bordo superiore */
-    left: 10px; /* Distanza dal bordo sinistro */
-    width: 40px; /* Larghezza dell'immagine */
+    top: 70px;
+    left: 10px; 
+    width: 40px; 
     height: auto; /* Mantiene le proporzioni */
-    cursor: pointer; /* Cambia il cursore in "mano" quando si passa sopra */
+    cursor: pointer; 
 }
 
 h3{
@@ -13,7 +13,6 @@ h3{
     font-weight: 800;
     text-align:center;
 }
-
 p{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 500;
@@ -33,8 +32,6 @@ font-weight: 500;
     width: 50px;
     margin-top: 50px;
 }
-
-
 .sezione{
     align-items: center;
     text-align: center;
@@ -48,8 +45,8 @@ font-weight: 500;
     text-align: center;
     position: relative;
     bottom: 0;
-    left: 0; /* Posiziona il footer al bordo sinistro */
-    right: 0; /* Posiziona il footer al bordo destro */
+    left: 0; 
+    right: 0; 
     width: 110%;
     height: 50px;
     display: flex;

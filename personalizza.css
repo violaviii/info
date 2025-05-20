@@ -54,7 +54,7 @@ h5{
     display: block; /* Mostra il contenitore */
 }
 
-h4 { /* Centra il testo orizzontalmente */
+h4 { 
     margin-top: -20px; /* Regola la distanza verticale */
     font-size: 18px;
     color: black;
@@ -82,15 +82,15 @@ h4 { /* Centra il testo orizzontalmente */
     object-fit: cover;
 }
 
-/*creazione scritte in fondo alla pagina a sinistra*/
+/*sezione finale*/
 .footer{
     clear: both;
     background-color: black;
     text-align: center;
     position: relative;
     bottom: 0;
-    left: 0; /* Posiziona il footer al bordo sinistro */
-    right: 0; /* Posiziona il footer al bordo destro */
+    left: 0; 
+    right: 0; 
     width: 102.7%;
     height: 50px;
     display: flex;

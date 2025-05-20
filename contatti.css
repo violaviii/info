@@ -1,11 +1,11 @@
 .casa-icon {
-    position: absolute; /* Posiziona l'immagine in alto a sinistra */
+    position: absolute; 
     background-color: black;
-    top: 70px; /* Distanza dal bordo superiore */
-    left: 10px; /* Distanza dal bordo sinistro */
-    width: 40px; /* Larghezza dell'immagine */
-    height: auto; /* Mantiene le proporzioni */
-    cursor: pointer; /* Cambia il cursore in "mano" quando si passa sopra */
+    top: 70px; 
+    left: 10px; 
+    width: 40px; 
+    height: auto; 
+    cursor: pointer; 
 }
 
 h3{
@@ -13,53 +13,52 @@ h3{
     font-weight: 800;
     text-align:center;
 }
-
 p{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 500;
   font-size: 18px;
 }
 
+/*icone sopra ai testi*/
 .immagini{
     display: flex; /* Dispone gli elementi in riga */
     gap: 580px; 
-    align-items: center; /* Allinea gli elementi verticalmente */
+    align-items: center; 
     margin-top: 20px; /* Spaziatura sopra il contenitore */
 }
 
-.mail{
+.mail{  /*immagine mail*/
     width: 60px;
     margin-left: 350px;
     margin-top: 30px;
 }
-.telefono{
+.telefono{ /*immagine telefono*/
     width: 50px;
     margin-left: 90px;
     margin-top: 30px;
 }
-.luogo{
+.luogo{ /*immagine indicatore luogo*/
     width: 50px;
     margin-left: 720px;
     margin-top: 30px;
 }
 
 .contatti{
-    display: flex; /* Dispone gli elementi in riga */
+    display: flex; 
     gap: 500px; /* Spaziatura tra gli elementi */
-    justify-content: center; /* Centra gli elementi orizzontalmente */
-    align-items: center; /* Allinea gli elementi verticalmente */
-    margin-top: 20px; /* Spaziatura sopra il contenitore */
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
 }
-
-.contatti p {
+  .contatti p {
     margin: 0; /* Rimuove i margini predefiniti */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px; /* Dimensione del testo */
     line-height: 1.5; /* Altezza della linea */
-}
+   }
 
 
-/*creazione scritte in fondo alla pagina a sinistra*/
+/*footer*/
 .footer{
     clear: both;
     background-color: black;

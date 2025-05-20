@@ -32,7 +32,7 @@ h5{
     display: none; /* Nasconde il contenitore di default */
     position: absolute; /* Posiziona il menu rispetto al genitore */
     background-color: white; /* Sfondo del menu */
-    border: 1px solid #ccc; /* Bordo sottile */
+    border: 1px solid #ccc; 
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra */
     z-index: 10; /* Porta il menu sopra gli altri elementi */
@@ -54,7 +54,7 @@ h5{
     display: block; /* Mostra il contenitore */
 }
 
-h4 { /* Centra il testo orizzontalmente */
+h4 { 
     margin-top: -20px; /* Regola la distanza verticale */
     font-size: 18px;
     color: black;

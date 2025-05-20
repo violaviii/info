@@ -1,11 +1,11 @@
 .casa-icon {
     position: absolute; /* Posiziona l'immagine in alto a sinistra */
     background-color: black;
-    top: 70px; /* Distanza dal bordo superiore */
-    left: 10px; /* Distanza dal bordo sinistro */
-    width: 40px; /* Larghezza dell'immagine */
-    height: auto; /* Mantiene le proporzioni */
-    cursor: pointer; /* Cambia il cursore in "mano" quando si passa sopra */
+    top: 70px;
+    left: 10px; 
+    width: 40px; 
+    height: auto; 
+    cursor: pointer; 
 }
 
 h3{
@@ -13,26 +13,26 @@ h3{
     font-weight: 800;
     text-align:center;
 }
-
 p{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 500;
-  font-size: 17px;
+font-size: 17px;
 }
-/*creazione scritte in fondo alla pagina a sinistra*/
+
+/*creazione footer*/
 .footer{
     clear: both;
     background-color: black;
     text-align: center;
     position: relative;
     bottom: 0;
-    left: 0; /* Posiziona il footer al bordo sinistro */
+    left: 0; 
     right: 0; /* Posiziona il footer al bordo destro */
     width: 110%;
     height: 50px;
     display: flex;
     justify-content: center; /* Centra il testo orizzontalmente */
-    align-items: center; /* Centra il testo verticalmente */
+    align-items: center;
     padding:0px; 
     margin: 0px;
     margin-left: -30px;
