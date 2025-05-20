@@ -86,7 +86,7 @@ body { /*modifica ell'intero body...sfondo*/
   border-radius: 8px;
   padding: 12px 32px;
   font-size: 1.1em;
-  cursor: pointer;
+  cursor: pointer; /*il cursore quando passi sopra a questo elemento diventa la manina*/
   font-weight: bold;
   transition: background 0.2s, transform 0.2s;
 }
