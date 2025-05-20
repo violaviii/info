@@ -10,3 +10,14 @@ function changeColor2() {
 function changeColor3() {
     document.getElementById('scarpa').src= "IMMAGINI/scarpaverdep.png" // Cambia l'immagine in base al colore
 }
+
+
+
+
+function mostraGrazieAcquisto() {
+    document.getElementById('modal').style.display = 'flex';
+}
+
+function chiudiAccedi() {
+    document.getElementById('modal').style.display = 'none';
+}

@@ -38,6 +38,7 @@
 
     <div class="descr">
     <h3 class="titoloscarpa">Nike Air Force 1 By You</h3>
+    <br> <br>
 
     <!-- Pulsanti per cambiare colore -->
     <div class="color-buttons">
@@ -45,7 +46,74 @@
         <button class="color-btn" style="background-color: rgba(4, 4, 155, 0.93);" onclick="changeColor1()"></button>
         <button class="color-btn" style="background-color: #faa3f5;" onclick="changeColor2()"></button>
         <button class="color-btn" style="background-color: rgb(94, 154, 102);" onclick="changeColor3()"></button>
+        
     </div>
+     <br>
+        <p> €99.90</p>
+     <br>
+
+      <form>
+      <label for="sesso"> Seleziona genere: </label>
+        <select id="sesso" name="sesso">
+            <option value="uomo">UOMO</option>
+            <option value="donna">DONNA</option>
+        </select> 
+     </form>
+
+     <form>
+      <label for="taglie"> Seleziona taglia: </label>
+        <select id="taglie" name="taglie">
+            <option value="36">36</option>
+            <option value="36">36.5</option>
+            <option value="37">37</option>
+            <option value="36">37.5</option>
+            <option value="38">38</option>
+            <option value="36">38.5</option>
+            <option value="39">39</option>
+            <option value="36">39.5</option>
+            <option value="40">40</option>
+            <option value="36">40.5</option>
+            <option value="41">41</option>
+            <option value="36">41.5</option>
+            <option value="42">42</option>
+            <option value="36">42.5</option>
+            <option value="43">43</option>
+            <option value="36">43.5</option>
+            <option value="44">44</option>
+            <option value="36">44.5</option>
+            <option value="45">45</option>
+            <option value="36">45.5</option>
+        </select> 
+     </form>
+
+<button class="acquista-btn" onclick="mostraGrazieAcquisto()">Acquista</button>
+<p id="messaggio-grazie" style="display:none; color:green; font-weight:bold; margin-top:15px;">Grazie per l'acquisto!</p>
+
+
+
+
+  <!--creazione del form di registrazione--> 
+    <div id="modal" class="modal">
+    <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>Registrazione</h2>
+    <form>
+    <label for="username">Nome utente:</label>
+    <input type="text" id="username" name="username" required>
+     
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+            
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+            
+    <button type="submit">Registrati</button>
+    </form>
+    </div>
+    </div>
+ 
+
+
     </div>
 </div>
 
@@ -53,6 +121,18 @@
 
 
 
+<!--altre sezioni con alcuni link come footer-->   
+<footer class="footer">
+    <div class="footer-content">
+     <p style="font-size: small;"> 
+    <a href="infoprivacy.html">INFO PRIVACY</a>|
+    <a href="politicarimborso.html">POLITICA RIMBORSO</a>|
+    <a href="politicaspedizione.html">POLITICA SPEDIZIONE</a>|
+    <a href="terminiservizio.html">TERMINI SERVIZIO</a>|
+    <a href="contatti.html">CONTATTI</a>
+    </p>
+    </div>
+    </footer>
 
 
 
