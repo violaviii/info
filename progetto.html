@@ -7,10 +7,10 @@
    <link rel="icon" href="IMMAGINI/logo.jpg" type="image/x-icon">
 </head>
 
-<body>
-<script src="progetto.js"></script>
+ <body>
+<script src="progetto.js"></script> <!--collegamento con javascript-->
 
-<!--creazione del 'bordo' iniziale con lo slogan-->
+<!--creazione del 'bordo' iniziale nero con lo slogan-->
 <div style="background-color: black; color:white; padding:0.3px; margin:-10px"> 
 <h5> CAMMINA CON NOI </h5>
 </div>
@@ -19,6 +19,7 @@
 <div class="titoli">
  <span class="sinistras"> <a href="chisiamo.html" target="_self" style="color: white;"> CHI SIAMO </a> </span> 
  <span class="sinistra">ACQUISTA
+     <!--menu a tendina con i vari link per acquistare-->
     <div class="dropdown">
     <a href="uomo.html">Uomo</a>
     <a href="donna.html">Donna</a>
@@ -27,12 +28,10 @@
  </span>
 
  <div class="votazione"> <a href="votaci.html" target="_self" style="color: white;">VOTACI </a></div>
-
  <div class="centrale"> <img src="IMMAGINI/logo.jpg" alt="logo"> </div>
  <span class="destra"> <img src="IMMAGINI/lente.png" alt="lente" class="immagine-flottante"> <button type="button" onclick="openModal()"> ACCEDI </button> </span> 
- 
 
-     <!--creazione del form di registrazione--> 
+    <!--creazione del form di registrazione--> 
     <div id="modal" class="modal">
     <div class="modal-content">
     <span class="close" onclick="closeModal()">&times;</span>
@@ -55,8 +54,8 @@
 <span class="destrad">CARRELLO</span>
 </div>
 
-<h2>BEST SELLER</h2>    
- <!--foto scarpe-->      
+<h2>BEST SELLER</h2> <!--foto scarpe-->  
+   <!--creazioen 'carosello': immagini scarpe che scorrono-->  
    <div class="carousel">
     <div class="carousel-track">
         <img src="IMMAGINI/1.png" alt="Scarpa 1">
@@ -67,13 +66,12 @@
     <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
     <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
 </div>
-
 <br>
 
-<!--altre sezioni con alcuni link come footer-->   
+<!--creazione footer con link e altre sezioni-->   
 <footer class="footer">
     <div class="footer-content">
-     <p style="font-size: small;"> 
+    <p style="font-size: small;"> 
     <a href="infoprivacy.html">INFO PRIVACY</a>|
     <a href="politicarimborso.html">POLITICA RIMBORSO</a>|
     <a href="politicaspedizione.html">POLITICA SPEDIZIONE</a>|
@@ -83,7 +81,8 @@
     </div>
     </footer>
 
-    <div id="cookie-bar" class="cookie-bar">
+<!--creazione pop up con 'annuncio' cookie da accettare o rifiutare-->
+<div id="cookie-bar" class="cookie-bar">
   Questo sito utilizza cookie per migliorare l'esperienza di navigazione.
   <button onclick="acceptCookies('all')" class="cookie-btn">Accetta tutti</button>
   <button onclick="acceptCookies('essential')" class="cookie-btn essential">Solo essenziali</button>

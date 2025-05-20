@@ -17,7 +17,7 @@ function closeModal() {
     document.getElementById("modal").style.display = "none";
 }
 
-/* Carousel */
+/* immagini che scorrono */
 let currentIndex = 0;
 
 function nextSlide() {
@@ -34,24 +34,20 @@ function prevSlide() {
     track.style.transform = `translateX(-${currentIndex * 100}%)`; // Sposta le immagini
 }
    
-/* Scorrimento automatico */
-function startAutoSlide() {
-    setInterval(() => {
-        nextSlide(); // Chiama la funzione per andare alla slide successiva
-    }, 3000); // Cambia immagine ogni 3 secondi
-}
+  /* Scorrimento automatico */
+   function startAutoSlide() {
+      setInterval(() => {
+          nextSlide(); // Chiama la funzione per andare alla slide successiva
+       }, 3000); // Cambia immagine ogni 3 secondi
+    }
 
 /* Avvia lo scorrimento automatico quando la pagina è caricata */
 document.addEventListener('DOMContentLoaded', startAutoSlide);
 
 
-
 /*barra dei cookie*/
 function acceptCookies(type) {
     document.getElementById('cookie-bar').style.display = 'none';
-    // localStorage.setItem('cookiePreference', type); // RIMUOVI o COMMENTA questa riga
-    // Qui puoi aggiungere logica diversa in base alla scelta
-    // Esempio: if(type === 'all') { ... } else if(type === 'essential') { ... }
 }
 
 window.onload = function() {

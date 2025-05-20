@@ -1,4 +1,4 @@
-/*sfondo sotto alla scritta principale*/
+/*sfondo nero sotto alla scritta principale*/
 .intro{
     background-image: url(IMMAGINI/nero.jpeg);
     height:400px;
@@ -8,7 +8,7 @@
     display: flex;
 }
 
-.intro {
+.intro {  /*quello che c'è 'sopra' allo sfondo nero*/
     display: flex;
     justify-content: space-between; 
     align-items: center; 
@@ -28,7 +28,7 @@ h1 {
     margin-right: auto;
 }
 
-/*immagine dcasetta*/
+/*immagine casetta*/
 .imf{
     position: absolute;
      top: 10px; /*Distanza dal bordo superiore*/
@@ -37,14 +37,14 @@ h1 {
     height: auto; /*Mantiene le proporzioni*/
     cursor: pointer;   
 }
-
+ /*cambio porprietà di h3 e paragrafi*/
 h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
     margin-left: 10px;
 }
 
-p{
+p{ 
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: 500;
 font-size: 22px;
@@ -57,12 +57,12 @@ font-size: 22px;
 }
 
 /*immagine logo a sinistra del testo*/
-.imgf {
+.imgf{
      float: left;
     margin-right: 15px; /*Spazio tra l'immagine e il testo*/
     width: 250px; /*Larghezza dell'immagine*/
-    height: auto; /*Mantiene le proporzioni*/
-    border-radius: 5px; /*Angoli arrotondati (opzionale)*/
+    height: auto;
+    border-radius: 5px; 
     margin-left: 10px;
 }
 
@@ -73,7 +73,7 @@ font-size: 22px;
 
 .tooltip {
     position: relative; /*Necessario per posizionare l'immagine*/
-    cursor: pointer; /*Cambia il cursore a "mano"*/
+    cursor: pointer;
 }
 
 /*creazione immagine che appare al passare del cursore*/
@@ -84,12 +84,12 @@ font-size: 22px;
     left: 50%; /*Centra l'immagine rispetto al testo*/
     transform: translateX(-50%);
     width: 100px; /*Larghezza dell'immagine*/
-    height: auto; /*Mantiene le proporzioni*/
+    height: auto; 
     border: 1px solid #ccc; /*Bordo sottile*/
     border-radius: 5px; /*Angoli arrotondati*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Ombra*/
     background-color: white; /*Sfondo bianco*/
-    z-index: 10; /*Porta l'immagine sopra gli altri elementi*/
+    z-index: 10; /*immagine sopra ad altri altri elementi*/
 }
 
 .tooltip:hover .tooltip-image{
@@ -97,7 +97,7 @@ font-size: 22px;
 }
 
 .frasi{
-    background-image: url(IMMAGINI/orme.jpeg);
+    background-image: url(IMMAGINI/orme.jpeg);  /*al di sotto delle scritte appare questa immagine*/
     height:400px;
     margin-top: -30px;
     margin-left: -10px;
@@ -114,7 +114,7 @@ h2{
     margin-top: 250px;
     font-size: 40px;
     font-weight: 800;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;  /*cambio font*/
     letter-spacing: -4px;
     font-style: oblique;
 }
@@ -138,5 +138,5 @@ h4{
     font-family: 'Poppins', sans-serif;
     letter-spacing: -4px;
     max-width: 800px; 
-    font-style: oblique;
+    font-style: oblique;  /*mette le scritte in obliquo*/
 }
