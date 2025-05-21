@@ -63,47 +63,55 @@ h4 {
 
 .scarpa-container {
     display: flex;
-    align-items: center;
-    
-    margin-top: 150px;
-    margin-left: 100px;
-
+    align-items: flex-start; /*allinea in alto i contenuti del box*/
+    margin-top: 80px;
+    margin-left: auto;  /*con i margin sistemi il box al centro dell'intera pagina*/
+    margin-right: auto;
+    max-width: 1100px;
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 8px 32px rgba(60,60,120,0.13);   /*ombra leggera*/
+    padding: 40px 40px 40px 40px;
+    gap: 60px;
 }
 
 .scarpa-img {
-    width: 550px; /* Larghezza dell'immagine */
-    height: auto; /* Mantiene le proporzioni */
+    width: 420px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(60,60,120,0.10);
+    background: #f3f4f6;
 }
 
-.descr{
-    margin-left:80px;
-    margin-bottom:130px;
+.descr {
+    margin-left: 0;
+    margin-bottom: 0;
+    flex: 1;  /*Fa sì che la descrizione occupi tutto lo spazio disponibile accanto all’immagine.*/
 }
 
-.titoloscarpa{
-    font-size: 24px; /* Dimensione del testo */
-    color: black; /* Colore del testo */
-    margin: 0; /* Rimuove i margini predefiniti */
-    text-align: left; /* Allinea il testo a sinistra */
+.titoloscarpa {
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 18px;
 }
 
 .color-buttons {
     display: flex;
-    gap: 10px; /* Spaziatura tra i pulsanti */
-
+    gap: 16px;
+    margin-bottom: 18px;
 }
-
 .color-btn {
-    width: 30px; /* Larghezza del pulsante */
-    height: 30px; /* Altezza del pulsante */
-    border: none; /* Rimuove il bordo */
-    border-radius: 50%; /* Rende i pulsanti circolari */
-    cursor: pointer; /* Cambia il cursore in "mano" */
-    transition: transform 0.2s ease; /* Effetto al passaggio del mouse */
+    width: 36px;   /*le dimensioni dei cerchi con i colori*/
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s; /*aggiunge un'animazione al passaggio del cursore*/
+    box-shadow: 0 2px 8px rgba(60,60,120,0.10);
+    border: 2px solid #e0e7ff;
 }
-
 .color-btn:hover {
-    transform: scale(1.2); /* Ingrandisce il pulsante al passaggio del mouse */
+    transform: scale(1.2); /*ingrandisce al passaggio del cursore*/
 }
 
 h3{
@@ -112,13 +120,13 @@ h3{
 }
 
 #sesso{
-     width: 120px;
+    width: 130px;
     padding: 8px 12px;
     border: 2px solid #000000;
     border-radius: 8px;
     background: #f8f8f8;
     color: #222;
-    font-size: 23px;
+    font-size: 20px;
     font-family: inherit;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -137,7 +145,7 @@ h3{
     border-radius: 8px;
     background: #f8f8f8;
     color: #222;
-    font-size: 23px;
+    font-size: 20px;
     font-family: inherit;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -163,6 +171,27 @@ h3{
     z-index: 1000;  /*stabilisce quale elemento sta sopra e quale sotto ecc*/
     justify-content: center;
     align-items: center;
+}
+
+.acquista-btn {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 18px;
+    box-shadow: 0 2px 8px rgba(60,60,120,0.08);
+    transition: background 0.2s, transform 0.2s;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(60,60,120,0.10);
+    display: inline-block;
+}
+.acquista-btn:hover {
+    background: black;
+    transform: scale(1.07);
 }
 
 /*Contenuto del pop-up*/
@@ -217,17 +246,6 @@ form button {
 form button:hover {
     background-color: gray;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*sezione finale*/
 .footer{

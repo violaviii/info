@@ -8,9 +8,9 @@
     display: flex;
 }
 
-.intro {  /*quello che c'è 'sopra' allo sfondo nero*/
-    display: flex;
-    justify-content: space-between; 
+.intro {  /*quello che c'è 'sopra' allo sfondo nero*/ 
+    display: flex; 
+    justify-content: space-between;  
     align-items: center; 
     padding: 10px;
 }
@@ -50,25 +50,23 @@ font-weight: 500;
 font-size: 22px;
 }
 
-.storia{
-    display: flex; /*Dispone immagine e paragrafo in fila*/
-    align-items: center; /*Allinea verticalmente al centro*/
-    gap: 15px; /*Spazio tra immagine e paragrafo*/
+.storia {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(60,60,120,0.10);
+    padding: 24px 20px;
+    max-width: 700px;
+    margin: 30px auto;
+    text-align: center;
 }
-
-/*immagine logo a sinistra del testo*/
-.imgf{
-     float: left;
-    margin-right: 15px; /*Spazio tra l'immagine e il testo*/
-    width: 250px; /*Larghezza dell'immagine*/
-    height: auto;
-    border-radius: 5px; 
-    margin-left: 10px;
+.storia .imgf {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 12px;
 }
-
 .storia p {
-    margin: 0; /*Rimuove margini predefiniti del paragrafo*/
-    line-height: 1.6; /*Migliora la leggibilità*/
+    font-size: 1.1em;
+    color: #444;
 }
 
 .tooltip {
@@ -96,6 +94,10 @@ font-size: 22px;
     display: block; /*Mostra l'immagine quando si passa il cursore*/
 }
 
+.noi{
+margin-left: 10px;
+}
+
 .frasi{
     background-image: url(IMMAGINI/orme.jpeg);  /*al di sotto delle scritte appare questa immagine*/
     height:400px;
@@ -105,9 +107,6 @@ font-size: 22px;
     display: flex;
 }
 
-.noi{
-margin-left: 10px;
-}
 
 h2{
     margin-left: 300px;
@@ -117,6 +116,7 @@ h2{
     font-family: 'Poppins', sans-serif;  /*cambio font*/
     letter-spacing: -4px;
     font-style: oblique;
+    color: rgb(6, 86, 15);
 }
 
 .fine{
