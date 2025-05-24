@@ -16,20 +16,21 @@ h5{
     padding: 10px;
 }
 
+
  /*le varie sezioni con i link*/
 .sinistras{ /*è la sezione CHI SIAMO*/
     font-size: 14px;  /*grandezza scritta*/
     display: flex; /*Dispone immagine e paragrafo in fila*/
     align-items: center; 
     gap: 20px; /**crea spazio tra elementi*/
-    margin-top: -730px;
+    margin-top: -735px;
 }
 .sinistra{ /*è la sezione ACQUISTA*/
     font-size: 14px;
     display: flex; /*Dispone immagine e paragrafo in fila*/
     align-items: center; 
     gap: 15px; /*Spazio tra immagine e paragrafo*/
-    margin-top: -730px;
+    margin-top: -735px;
     color: white;
     margin-left: -450px;
 }
@@ -38,7 +39,7 @@ h5{
     display: flex; /*Dispone immagine e paragrafo in fila*/
     align-items: center; 
     gap: 15px; /*Spazio tra immagine e paragrafo*/
-    margin-top: -730px;
+    margin-top: -735px;
     color: white;
     margin-left: -455px;
 }
@@ -49,7 +50,7 @@ h5{
 .centrale{ /*è il logo al centro*/
     display: flex; /*Dispone immagine e paragrafo in fila*/
     align-items: center; 
-    margin-top: -690px;
+    margin-top: -680px;
     color: white;
     margin-right: 50px;
 }
@@ -59,26 +60,24 @@ h5{
 
     .immagine-flottante {  /*è la lente di ingrandimento*/
     float: left; 
-    margin-right: 10px; 
-    width: 20px;
-    height: 20px; 
+    margin-right: 12px; 
+    width: 42px;
+    height: 42px; 
     vertical-align: middle; 
     }
 .destra{ /*è la sezione ACCEDI*/
     font-size: 14px;
     display: flex; /*Dispone immagine e paragrafo in fila*/
     align-items: center; 
-    margin-top: -730px;
+    margin-top: -735px;
     color: white;
     margin-right: -460px;
 }
 .destrad{ /*è la sezione CARRELLO*/
-    font-size: 14px;
     display: flex; 
     align-items: center;
-    margin-top: -730px;
-    color: white;
-    margin-right: 0px;
+    margin-top: -739px;
+    margin-right: 20px;
 }
 
 /*Contenitore nascosto per la sezione acquista*/

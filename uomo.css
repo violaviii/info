@@ -54,11 +54,11 @@ h5{
     display: block; /* Mostra il contenitore */
 }
 
-h4 { /* Centra il testo orizzontalmente */
-    margin-top: -20px; /* Regola la distanza verticale */
-    font-size: 18px;
+h4 { 
+    margin-top: -10px; /* Regola la distanza verticale */
+    font-size: 25px;
     color: black;
-    text-align: left;
+    margin-left: 20px; ;
 }
 
 .contenitore{
