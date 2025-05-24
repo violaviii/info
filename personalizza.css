@@ -1,3 +1,7 @@
+body{
+        flex-direction: column;
+}
+
 h5{
     text-align: center;
 }
@@ -66,6 +70,7 @@ h4 {
     justify-content: center;
     gap: 10px;
     padding: 20px;
+
 }
 
 .pers{
@@ -89,12 +94,13 @@ h4 {
     padding: 20px 0;
     text-align: center;
     border-radius: 18px;
-    margin-top: 40px;
+    margin-top: 125px;
     height: auto;
     width: 100;
     margin-left: auto;    /* Centra il footer */
     margin-right: auto;
     box-sizing: border-box;
+    
 }
 
 .footer a {

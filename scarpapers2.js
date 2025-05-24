@@ -1,14 +1,14 @@
 function changeColor() {
-    document.getElementById('scarpa').src= "IMMAGINI/scarpagiallap.png" // Cambia l'immagine in base al colore
+    document.getElementById('scarpa').src= "IMMAGINI/blazerrosse.PNG" // Cambia l'immagine in base al colore
 }
 function changeColor1() {
-    document.getElementById('scarpa').src= "IMMAGINI/scarpablup.png" // Cambia l'immagine in base al colore
+    document.getElementById('scarpa').src= "IMMAGINI/blazerazzurre.PNG" // Cambia l'immagine in base al colore
 }
 function changeColor2() {
     document.getElementById('scarpa').src= "IMMAGINI/blazerrosa.PNG" // Cambia l'immagine in base al colore
 }
 function changeColor3() {
-    document.getElementById('scarpa').src= "IMMAGINI/scarpaverdep.png" // Cambia l'immagine in base al colore
+    document.getElementById('scarpa').src= "IMMAGINI/blazerverdi.PNG" // Cambia l'immagine in base al colore
 }
 
 function mostraGrazieAcquisto() {    //serve per mostrare il form per l'acquisto
