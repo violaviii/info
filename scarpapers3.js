@@ -43,13 +43,10 @@ function changeColor11() {
 
 
 
-
-
-
-
-function mostraGrazieAcquisto() {    //serve per mostrare il form per l'acquisto
+function Acquisto() {    //serve per mostrare il form per l'acquisto
     document.getElementById('modal').style.display = 'flex';
 }
+
 
 function closeModal() {  //per chiudere il form di registrazione per l'acquisto
     document.getElementById('modal').style.display = 'none';

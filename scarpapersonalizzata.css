@@ -88,7 +88,6 @@ h4 {
 .descr {
     margin-left: 0;
     margin-bottom: 0;
-    flex: 1;  /*Fa sì che la descrizione occupi tutto lo spazio disponibile accanto all’immagine.*/
 }
 
 .titoloscarpa {
@@ -251,11 +250,12 @@ form button:hover {
 
 
 .descrizione{
+    width: 310px;
+    position:absolute;
     display:flex;
     position:right;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
+    margin-top: 10px;
+    margin-left: 220px;
     font-size: 18px;
     color: black;
 
