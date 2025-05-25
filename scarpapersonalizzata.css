@@ -121,6 +121,7 @@ h2{
     position: relative;
 }
 
+/*css per i form di taglia e scelta sesso*/
 #sesso{
     width: 130px;
     padding: 8px 12px;
@@ -141,7 +142,7 @@ h2{
 }
 
 #taglie{
-     width: 120px;
+    width: 130px;
     padding: 8px 12px;
     border: 2px solid #000000;
     border-radius: 8px;
@@ -158,7 +159,6 @@ h2{
     border: 2px solid #a2baf7;
     background: #fffbe7;
 }
-
 
 
 /*creazione del pop up col form di registrazione nella sezione accedi*/

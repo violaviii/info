@@ -10,7 +10,7 @@ h5{
     margin-left: -10px;
     margin-right:-10px ;
     background-size: cover; /*ridimensionare l'immagine in modo che prenda tutto lo spazio*/
-    display: flex;
+    display: flex; 
     justify-content: space-between;  /*distribuisce elementi ai lati*/
     align-items: center; /*Allinea verticalmente al centro*/
     padding: 10px;

@@ -52,4 +52,4 @@ function acceptCookies(type) {
 
 window.onload = function() {
     document.getElementById('cookie-bar').style.display = 'block';
-};
+}
