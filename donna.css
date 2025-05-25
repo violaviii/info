@@ -55,10 +55,10 @@ h5{
 }
 
 h4 { 
-    margin-top: -20px; /* Regola la distanza verticale */
-    font-size: 18px;
+    margin-top: -10px; /* Regola la distanza verticale */
+    font-size: 25px;
     color: black;
-    text-align: left;
+    margin-left: 20px; ;
 }
 .contenitore{
     display: flex;

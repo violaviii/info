@@ -12,12 +12,12 @@
 
 <!--creazione del 'bordo' iniziale nero con lo slogan-->
 <div style="background-color: black; color:white; padding:0.3px; margin:-10px"> 
-<h5> CAMMINA CON NOI </h5>
+<h5 style="text-align:center"> CAMMINA CON NOI </h5>
 </div>
      
 <!--creazione titolo principale e delle sezioni-->
 <div class="titoli">
- <span class="sinistras"> <a href="chisiamo.html" target="_self" style="color: white;"> CHI SIAMO </a> </span> 
+ <span class="sinistras"> <a href="chisiamo.html" target="_self" style="color: white; text-decoration: none;"> CHI SIAMO </a> </span> 
  <span class="sinistra">ACQUISTA
      <!--menu a tendina con i vari link per acquistare-->
     <div class="dropdown">
@@ -29,7 +29,10 @@
 
  <div class="votazione"> <a href="votaci.html" target="_self" style="color: white;">VOTACI </a></div>
  <div class="centrale"> <img src="IMMAGINI/logo.jpg" alt="logo"> </div>
- <span class="destra"> <img src="IMMAGINI/lente.png" alt="lente" class="immagine-flottante"> <button type="button" onclick="openModal()"> ACCEDI </button> </span> 
+ <span class="destra"> <img src="IMMAGINI/lente4.png" alt="lente" class="immagine-flottante"> 
+    <button type="button" onclick="openModal()" style="background: none; border: none; padding: 0; cursor: pointer; ">
+        <img src="IMMAGINI/log4.png" alt="Accedi" style="width: 42px; height: 42px;"> 
+    </button> </span> 
 
     <!--creazione del form di registrazione--> 
     <div id="modal" class="modal">
@@ -51,7 +54,7 @@
     </div>
     </div>
  
-<span class="destrad">CARRELLO</span>
+<span class="destrad"> <img src="IMMAGINI/carrello.png" style="width: 42px; height: 42px;" alt="carrello"> </span>
 </div>
 
 <h2>BEST SELLER</h2> <!--foto scarpe-->  
