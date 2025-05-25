@@ -2,6 +2,13 @@ h5{
     text-align: center;
 }
 
+h4 { 
+    margin-top: -10px; /* Regola la distanza verticale */
+    font-size: 25px;
+    color: black;
+    margin-left: 20px; ;
+}
+
 .logo{
     height:100px;
     margin-top: 10px;
@@ -54,12 +61,6 @@ h5{
     display: block; /* Mostra il contenitore */
 }
 
-h4 { 
-    margin-top: -20px; /* Regola la distanza verticale */
-    font-size: 18px;
-    color: black;
-    text-align: left;
-}
 
 .scarpa-container {
     display: flex;
@@ -73,6 +74,7 @@ h4 {
     box-shadow: 0 8px 32px rgba(60,60,120,0.13);   /*ombra leggera*/
     padding: 40px 40px 40px 40px;
     gap: 60px;
+
 }
 
 .scarpa-img {
@@ -114,7 +116,7 @@ h4 {
     transform: scale(1.2); /*ingrandisce al passaggio del cursore*/
 }
 
-h3{
+h2{
     margin-left: 600;
     position: relative;
 }
@@ -247,31 +249,49 @@ form button:hover {
     background-color: gray;
 }
 
-/*sezione finale*/
-.footer{
-    clear: both;
-    background-color: black;
+
+.descrizione{
+    display:flex;
+    position:right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-size: 18px;
+    color: black;
+
+}
+
+
+
+
+/*creazione scritte del footer*/
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
-    position: relative;
-    bottom: 0;
-    left: 0; 
-    right: 0; 
-    width: 102.7%;
-    height: 50px;
-    display: flex;
-    justify-content: center; /* Centra il testo orizzontalmente */
-    align-items: center; /* Centra il testo verticalmente */
-    padding:0px; 
-    margin:-10px;
-    margin-left: -30px;
+    border-radius: 18px;
+    margin-top: 125px;
+    height: auto;
+    width: 100;
+    margin-left: auto;    /* Centra il footer */
+    margin-right: auto;
+    box-sizing: border-box;
+    
 }
 
-.footer a{
-    color: white;
-    text-decoration: solid;
-    margin: 0 10px;
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
 }
-
-.footer a:hover{
+.footer a:hover {
     text-decoration: underline;
 }
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
