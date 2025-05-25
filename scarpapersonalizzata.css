@@ -119,6 +119,7 @@ h3{
     position: relative;
 }
 
+/*css per i form di taglia e scelta sesso*/
 #sesso{
     width: 130px;
     padding: 8px 12px;
@@ -156,7 +157,6 @@ h3{
     border: 2px solid #a2baf7;
     background: #fffbe7;
 }
-
 
 
 /*creazione del pop up col form di registrazione nella sezione accedi*/
